@@ -4,13 +4,19 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
 def main():
+    st.set_page_config(
+        page_title="EmoAnalyzer🥺",
+        page_icon=":smiley:",
+        layout="centered",
+        initial_sidebar_state="auto"
+    )
     st.title("EmoAnalyzer🥺")
     text = st.text_area("Enter Text For Emotion Testing")
 
     if st.button("Analyze"):
         blob = TextBlob(text)
         sentiment_polarity = blob.sentiment.polarity
-        sentiment_subjectivity = blob.sentiment.subjectivityty
+        sentiment_subjectivity = blob.sentiment.subjectivity
         if sentiment_polarity > 0:
             sentiment_label = "Positive"
         elif sentiment_polarity < 0:
