@@ -5,7 +5,7 @@ from wordcloud import WordCloud
 
 def main():
     st.set_page_config(
-        page_title="EmoAnalyzer🥺",
+        page_title="EmoAnalyzer",
         page_icon=":smiley:",
         layout="centered",
         initial_sidebar_state="auto"
