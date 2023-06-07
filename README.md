@@ -1,0 +1,2 @@
+# EmoAnalyzer
+Sentiment Scoring Application
