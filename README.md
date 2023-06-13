@@ -1,6 +1,7 @@
 # EmoAnalyzer
 ## Overview
-The Sentiment Analysis Tool is a web application that performs sentiment analysis on text input provided by the user. It leverages natural language processing techniques to determine the sentiment polarity and subjectivity of the text, providing valuable insights into the emotional tone of the content.
+The Sentiment Analysis Tool is a web application that performs sentiment analysis on text input provided by the user. It leverages natural language processing techniques to determine the sentiment polarity and subjectivity of the text, providing valuable insights into the emotional tone of the content.  
+
 ## Features
 - **Sentiment Analysis:** The tool analyzes the sentiment of the text input and provides sentiment polarity, subjectivity, and sentiment labels (positive, negative, or neutral).
 - **Sentiment Distribution Visualization:** It generates a bar chart that displays the distribution of sentiment labels within the analyzed text, providing an overview of the sentiment composition.
@@ -29,3 +30,5 @@ Run the Streamlit app using the following command:
 streamlit run app.py
 
 ```
+## Disclaimer 
+This is a test Application ONLY
